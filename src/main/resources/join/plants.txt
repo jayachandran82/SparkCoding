@@ -1,0 +1,16 @@
+roses|flower
+violets|flower
+tomatoes|berries
+grapes|fruit
+bananas|fruit tree
+coconut|fruit tree
+apples|fruit tree
+oak|tree
+pine|tree
+strawberries|berries
+blueberries|berries
+dogwood|tree
+willow|tree
+pansies|flower
+cactus|flower
+kiwi|fruit

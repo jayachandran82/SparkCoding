@@ -1,0 +1,29 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "date": "2024-07-21",
+      "type": "HR"
+    }
+  ],
+  "order": [
+    {
+      "order_id": 101,
+      "employee_id": 1,
+      "name": "Order A",
+      "order_date": "2024-07-20",
+      "order_amount": 500.0,
+      "type": "HR"
+    }
+  ],
+  "tickets": [
+    {
+      "ticket_id": 1001,
+      "order_id": 101,
+      "name": "Ticket A",
+      "ticket_status": "Open",
+      "type": "Issue"
+    }
+  ]
+}

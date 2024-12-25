@@ -1,0 +1,8 @@
+flower|sunny
+tree|sunny
+fruit|sunny
+fruit tree|dry
+berries|cool
+fruit tree|tropical
+tree|cold
+fruit|tropical
