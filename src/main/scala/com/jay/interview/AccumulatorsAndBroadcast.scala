@@ -1,12 +1,14 @@
 package com.jay.interview
 
-import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.util.LongAccumulator
+import ch.qos.logback.classic.{Logger => LogbackLogger, Level}
+import org.slf4j.LoggerFactory
 
 object AccumulatorsAndBroadcast {
   def main(args: Array[String]): Unit = {
-    Logger.getLogger("org").setLevel(Level.ERROR)
+    val rootLogger = LoggerFactory.getLogger(org.slf4j.Logger.ROOT_LOGGER_NAME).asInstanceOf[LogbackLogger]
+    rootLogger.setLevel(Level.OFF)
     val spark = SparkSession
       .builder()
       .master("local[2]")
